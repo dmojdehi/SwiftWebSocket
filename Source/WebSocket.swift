@@ -194,7 +194,7 @@ public struct WebSocketService :  OptionSet {
 
 private let atEndDetails = "streamStatus.atEnd"
 private let timeoutDetails = "The operation couldn’t be completed. Operation timed out"
-private let timeoutDuration : CFTimeInterval = 30
+private let timeoutDuration : CFTimeInterval = 3
 
 public enum WebSocketError : Error, CustomStringConvertible {
     case memory
